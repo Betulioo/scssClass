@@ -2,9 +2,9 @@
 @import "block/_header.scss";
 
 body {
-  background-color: black;
+  background-color: $colorTomato;
+  font-size: $letraGrande;
 }
-
 //Regla en css
 // .header img {
 //   width: 100px;
