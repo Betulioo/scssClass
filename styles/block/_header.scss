@@ -1,0 +1,26 @@
+.header {
+  background-color: green;
+
+  figure {
+    width: 300px;
+    background-color: aliceblue;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .img2 {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+nav {
+  ul {
+    li {
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}

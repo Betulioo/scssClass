@@ -1,0 +1,23 @@
+.header {
+  background-color: green;
+}
+.header figure {
+  width: 300px;
+  background-color: aliceblue;
+}
+.header figure img {
+  width: 100px;
+  height: 100px;
+}
+.header .img2 {
+  width: 300px;
+  height: 300px;
+}
+
+nav ul li a {
+  font-size: 20px;
+}
+
+body {
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
