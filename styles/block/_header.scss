@@ -1,7 +1,7 @@
 .header {
   background-color: $colorVerde;
-  display: flex;
-  align-items: center;
+  @include mixinFlex(flex, center, space-around);
+
   border-radius: 5px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 
@@ -20,12 +20,11 @@
 
 nav {
   ul {
-    display: flex;
     width: 350px;
     gap: 15px;
     list-style: none;
-    align-items: center;
-    justify-content: space-around;
+    @include mixinFlex(flex, center, center);
+
     li {
       a {
         font-size: 20px;

@@ -1,0 +1,10 @@
+main {
+  height: 500px;
+  background-color: rgb(181, 27, 0);
+  button {
+    @include button();
+  }
+  .button {
+    @include button(black, white, yellow, 10px, 10px);
+  }
+}

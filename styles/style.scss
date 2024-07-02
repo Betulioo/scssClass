@@ -1,6 +1,7 @@
 @import "variables/_variables.scss";
+@import "mixins/_mixin.scss";
 @import "block/_header.scss";
-
+@import "block/_main.scss";
 body {
   background-color: $colorTomato;
   font-size: $letraGrande;

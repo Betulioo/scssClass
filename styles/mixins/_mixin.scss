@@ -1,0 +1,27 @@
+@mixin button(
+  $colorBackGround: green,
+  $colorLetra: white,
+  $hoverColor: rgb(252, 122, 0),
+  $padding: 10px 20px,
+  $borderRadius: 5px
+) {
+  background-color: $colorBackGround;
+  color: $colorLetra;
+  padding: $padding;
+  border: none;
+  border-radius: $borderRadius;
+  cursor: pointer;
+  &:hover {
+    background-color: $hoverColor;
+  }
+}
+
+@mixin mixinFlex(
+  $display: flex,
+  $alignItems: center,
+  $justifyContent: space-around
+) {
+  display: $display;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+}
