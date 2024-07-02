@@ -1,17 +1,17 @@
 .header {
   background-color: $colorVerde;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 
   figure {
-    width: 300px;
-    background-color: aliceblue;
-    img {
-      width: 100px;
-      height: 100px;
-    }
   }
   .img2 {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   }
   h1 {
     font-family: $font-stack;
@@ -20,6 +20,12 @@
 
 nav {
   ul {
+    display: flex;
+    width: 350px;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
     li {
       a {
         font-size: 20px;
