@@ -1,9 +1,9 @@
 @mixin button(
+  $borderRadius,
   $colorBackGround: green,
   $colorLetra: white,
   $hoverColor: rgb(252, 122, 0),
-  $padding: 10px 20px,
-  $borderRadius: 5px
+  $padding: 10px 20px
 ) {
   background-color: $colorBackGround;
   color: $colorLetra;
